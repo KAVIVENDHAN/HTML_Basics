@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 5px gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#nav>article {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+#nav>article>.Logo {
+    height: 75px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav>article>.Menu {
+    height: 75px;
+    width: 30%;
+}
+
+#nav>article>.Menu>ol {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+}
+
+#nav>article>.Menu>ol>li>a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+/* #nav>article>.Menu>ol>li>a:active {
+    text-decoration: none;
+}
+
+#nav>article>.Menu>ol>li>a:hover {
+    text-decoration: none;
+} */
+
+
+
+#nav>article>.Searchbox {
+    height: 75px;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav>article>.Searchbox>div {
+    height: 55%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 246);
+
+}
+
+#nav>article>.Searchbox>div>i {
+
+    font-size: 13px;
+    color: darkgrey;
+}
+
+#nav>article>.Searchbox>div>input {
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: rgb(245, 245, 246);
+
+}
+
+
+
+#nav>article>.Profile {
+    height: 75px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#nav>article>.Profile>div {
+    text-align: center;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#image {
+    margin-top: 30px;
+    height: 400PX;
+    width: 100%;
+}
+
+#image>img {
+    height: 50vh;
+    width: 100%;
+}
+
+#deal {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#deal>p {
+    color: RGB(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-width: ; */
+
+}
+
+
+
+sup {
+    font-size: 8px;
+}
+
+#cards {
+    height: 30vh;
+    width: 100%;
+    background-color: aqua;
+
+}
+
+#cards>img {
+    height: 100%;
+    width: 10.7%;
+}
+
+#categorie>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards2 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards2>img {
+    height: 150%;
+    width: 16%;
+    position: relative;
+    padding: 20px;
+
+}
+
+#explore>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+}
+
+#cards3 {
+    height: 100vh;
+    width: 100%;
+}
+
+#card3>img {
+    /* height: 0%;
+    width: 16%; */
+    margin-left: 75px;
+
+}
+
+#western>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards4 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards4>img {
+    height: 100%;
+    width: 10.5%;
+    margin-left: 75px;
+}
+
+#indian>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards5 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards5>img {
+    height: 100%;
+    width: 10.5%;
+    margin-left: 75px;
+
+
+}
+
+#sports>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards6 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards6>img {
+    height: 100%;
+    width: 10.5%;
+    margin-left: 75px;
+}
+
+#footwear>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards7 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards7>img {
+    height: 100%;
+    width: 10.5%;
+    margin-left: 75px;
+}
+
+#accessories>p {
+    color: rgb(62, 65, 82);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    padding-left: 50px;
+
+}
+
+#cards8 {
+    height: 30vh;
+    width: 100%;
+}
+
+#cards8>img {
+    height: 100%;
+    width: 10.5%;
+    margin-left: 75px;
+}
+
+#footer {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(250, 251, 251);
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer>article {
+    height: 80%;
+    width: 80%;
+    display: flex;
+
+}
+
+#footer>article>.col1 {
+    height: 100%;
+    width: 15%;
+    background-color: antiquewhite;
+}
+
+#footer>article>.col2 {
+    height: 100%;
+    width: 15%;
+    background-color: aquamarine;
+}
+
+#footer>article>.col3 {
+    height: 100%;
+    width: 35%;
+    background-color: blueviolet;
+}
+
+#footer>article>.col4 {
+    height: 100%;
+    width: 25%;
+    background-color: chocolate;
+}
+
+#footer>article>.col3.>.mobile {}

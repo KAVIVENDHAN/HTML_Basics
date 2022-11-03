@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Images position</title>
+    <style>
+        img {
+            height: 200px;
+            width: 200px;
+            animation-name: abc;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
+            margin: 75px;
+            border: 200px;
+
+        }
+
+        h1 {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            animation-name: abc;
+            animation-duration: 100s;
+            animation-iteration-count: 10s;
+        }
+
+
+        @keyframes abc {
+            0% {
+                background-color: red;
+                transform: scale(0)rotate(40deg)skew(40deg);
+
+            }
+
+            25% {
+                background-color: aqua;
+                transform: scale(.5)rotate(60deg)skew(60deg);
+            }
+
+            50% {
+                background-color: green;
+                transform: scale(1)rotate(100deg)skew(100deg);
+            }
+
+            75% {
+                background-color: darkblue;
+                transform: scale(1.5)rotate(120deg)skew(120deg);
+            }
+
+            100% {
+                background-color: rgb(0, 107, 139);
+                transform: scale(2)rotate(240deg)skew(240deg);
+            }
+        }
+    </style>
+</head>
+
+<body style="width: 1000px;height: 2000px">
+    <!-- style="position:fixed;" It is used to fix content in web page -->
+    <img src="./wallpaperflare.com_wallpaper (1).jpg" alt="">
+    <img src=" ./wallpaperflare.com_wallpaper (4).jpg" alt="">
+    <img src="./wallpaperflare.com_wallpaper (5).jpg" alt="">
+    <img src="./wallpaperflare.com_wallpaper (7).jpg" alt="">
+    <h1>
+    </h1>
+</body>
+
+</html>
